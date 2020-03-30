@@ -22,3 +22,9 @@ lista.push 10
 
 #jontar objetos do array e concatenar numa string
 lista.join ','
+
+#ordenando em ordem aleatória
+lista.sort
+
+#transforma array transformando em array aplicando uma função
+lista.map {|numero| numero * numero}

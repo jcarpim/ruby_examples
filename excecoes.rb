@@ -10,4 +10,5 @@ begin
 	puts resultado
 rescue Exception => e
 	puts "Erro ao dividir: " + e.message
+	0
 end
